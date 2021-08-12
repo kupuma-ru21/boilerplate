@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 type Props = { title: string };
+
 export default function Home({ title = 'Welcome to React Next.js!' }: Props) {
   return (
     <div className="container">
@@ -54,7 +55,6 @@ export default function Home({ title = 'Welcome to React Next.js!' }: Props) {
           rel="noopener noreferrer"
         >
           Powered by
-          {/* eslint-disable @next/next/no-img-element */}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
