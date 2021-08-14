@@ -1,7 +1,5 @@
 import * as S from './styles';
 
-// type Props = { title: string; description: string };
-
 const Main = ({
   title = 'React Advance',
   description = 'TypeScript, ReactJS, NextJS e Styled Components',
