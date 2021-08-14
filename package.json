@@ -11,6 +11,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
+    "storybook:test": "start-storybook --ci --smoke-test",
     "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
